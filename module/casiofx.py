@@ -90,6 +90,6 @@ def RanInt(a, b):
 
 def Ent(number: float):
 	# Returns the integer part of the argument
-	return round(number, 1) // 1 # Rounds to prevent unexact numbers (e.g. 1.2 being 1.9999999...)
+	return number // 1
 
 print('Successfully created Calculator class & utils')
