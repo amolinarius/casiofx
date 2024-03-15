@@ -11,6 +11,7 @@ With this tool, you can create these programs in Python!
 By default, you have the following games :
 
 - [Cannon Game](/cannon_game.py)
+- [Connect 4](/connect_four.py)
 - [Number Guesser](/number_guesser.py)
 - [Rock Paper Scissors](/rock_paper_scissors.py)
 - [Tic Tac Toe](/tic_tac_toe.py)
