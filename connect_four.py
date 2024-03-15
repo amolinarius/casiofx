@@ -23,9 +23,7 @@ d = 0
 while True:
     a = int(calc.askValue('a')) # Integer needed to avoid overflowerror
     b = 7 - a
-    print(a, b)
     c = Ent(m/10**b) - (Ent(m/10**(b+1))*10)
-    print(c)
     calc.penup()
     calc.goto(-22.5+7*(a-1), -19+7*(c-1))
     calc.pendown()
